@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="fa245dd6-b5db-4831-a98e-71253e249d21" name="Find Check and Convert" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="fa245dd6-b5db-4831-a98e-71253e249d21fileName">Find-Check-and-Convert</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

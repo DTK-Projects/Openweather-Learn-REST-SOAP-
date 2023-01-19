@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="efa3ba54-b916-4b7c-939e-3d6b8fb5dba0" name="Check and Convert" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="efa3ba54-b916-4b7c-939e-3d6b8fb5dba0fileName">Check-and-Convert</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

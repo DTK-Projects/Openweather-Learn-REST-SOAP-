@@ -1,0 +1,7 @@
+http%3A%2F%2Fapi.positionstack.com\Geocoding.xml
+https%3A%2F%2Fapi.openweathermap.org\Air-Pollution.xml
+https%3A%2F%2Fapi.openweathermap.org\Weather.xml
+TempConverter\CelsiusToFahrenheit.xml
+TempConverter\FahrenheitToCelsius.xml
+Check-and-Convert\https%3A%2F%2Fapi.openweathermap.org-Test-Case-1.xml
+Find-Check-and-Convert\http%3A%2F%2Fapi.positionstack.com-Test-Case-1.xml

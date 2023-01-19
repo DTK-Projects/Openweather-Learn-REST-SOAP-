@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="ab17589c-92a7-4885-986c-b4bf4af1cd50" isOneWay="false" action="" name="CelsiusToFahrenheit" bindingOperationName="CelsiusToFahrenheit" type="Request-Response" outputName="CelsiusToFahrenheitResponse" inputName="CelsiusToFahrenheit" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="ab17589c-92a7-4885-986c-b4bf4af1cd50fileName">CelsiusToFahrenheit</con:setting></con:settings><con:call id="fb9b96a6-e5db-4653-992b-0a3b191ba6aa" name="Convert Request C2F"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://apps.learnwebservices.com/services/tempconverter</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://learnwebservices.com/services/tempconverter">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CelsiusToFahrenheitRequest>
+         <tem:TemperatureInCelsius>${F' to C'#Response#declare namespace ns1='http://learnwebservices.com/services/tempconverter'; //ns1:FahrenheitToCelsiusResponse[1]/ns1:TemperatureInCelsius[1]}</tem:TemperatureInCelsius>
+      </tem:CelsiusToFahrenheitRequest>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://learnwebservices.com/services/tempconverter/TempConverterEndpoint/CelsiusToFahrenheit"/><con:wsrmConfig version="1.2"/></con:call></con:operation>
