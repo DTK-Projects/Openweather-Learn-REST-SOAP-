@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="fd4620fa-4cef-497f-b57b-5c8ad95907d6" created="3.40.2" activeEnvironment="Default environment" name="Openweather Learn (REST/SOAP)" resourceRoot="" updated="3.42.2" encryptionMode="Not encrypted" defaultScriptLanguage="Groovy" projectVersion="" savePropertyValues="false" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerUIAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="fd4620fa-4cef-497f-b57b-5c8ad95907d6" created="3.40.2" activeEnvironment="Default environment" name="Openweather Learn (REST/SOAP)" resourceRoot="${projectDir}" updated="3.43.1" encryptionMode="Not encrypted" defaultScriptLanguage="Groovy" projectVersion="" savePropertyValues="false" compositeProjectFormat="1.3" scriptLibrary="${projectDir}\Openweather-REST-SOAP-Sample Project\scripts\" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerUIAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Settings File Password" value=""/>
   <con:entry key="Report Format(s)" value="XML"/>
   <con:entry key="Host:Port" value=""/>
@@ -49,7 +49,7 @@
   <con:entry key="Test Suite Tags" value=""/>
   <con:entry key="Select Report Type" value="JUnit-Style report for automation"/>
   <con:entry key="System Properties" value=""/>
-  <con:entry key="Test Suite" value="Find Check and Convert"/>
+  <con:entry key="Test Suite" value="Check and Convert"/>
   <con:entry key="Run in-process" value="false"/>
   <con:entry key="Password" value=""/>
   <con:entry key="Print Report" value="true"/>
